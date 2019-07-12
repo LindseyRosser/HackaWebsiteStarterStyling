@@ -1,0 +1,39 @@
+/* Overwritting default bootstrap styles */
+#jumbotron {
+    margin-top: 51px;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    color: #ef8354;
+  }
+  
+  .toggler {
+    min-width: 15rem;
+    max-width: 15rem;
+    background-color: #ef8354;
+  }
+  
+  .text-muted {
+    margin: 20px 0;
+  }
+  
+  /* Double border under every 5n row */
+  .ajax-content > tr:nth-of-type(5n){
+    border-bottom: 2px silver solid;
+  }
+  
+  /* Helper */
+  .lobster-font {
+    font-family: 'Fascinate Inline';
+
+  }
+
+.btn-primary {
+    color: #fff;
+    background-color: #ef8354;
+    border-color: #ef8354;
+
+  }
